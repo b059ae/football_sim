@@ -1,0 +1,17 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+.w-10{
+    width: 10%;
+}
+.w-40{
+    width: 40%;
+}
+.vh-50{
+    height: 50vh;
+}
