@@ -10,9 +10,19 @@ Championship prediction is available before 2 weeks from the end.
 
 Please use stable version of vue-devtools [https://github.com/vuejs/router/issues/1338](https://github.com/vuejs/router/issues/1338)
 
-```php artisan migrate:refresh --seed``` 
-
 ```composer install``` 
+
+```cp .env.example .env``` 
+
+Specify DB connection in .env file. The easiest way is to use sqlite.
+
+```touch database/database.sqlite```
+
+Add absolute path to .env file DB_DATABASE
+
+```php artisan key:generate``` 
+
+```php artisan migrate:refresh --seed```
 
 # Tests
 
