@@ -10,6 +10,8 @@ Championship prediction is available before 2 weeks from the end.
 
 Please use stable version of vue-devtools [https://github.com/vuejs/router/issues/1338](https://github.com/vuejs/router/issues/1338)
 
+```git clone git@github.com:b059ae/football_sim.git && cd football_sim```
+
 ```composer install``` 
 
 ```cp .env.example .env``` 
